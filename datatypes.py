@@ -58,3 +58,17 @@ car_station =[car_one, car_two]
 #for car in car_station:
 print(car_station[1]["make"])
 print(car_station[1]["accident_history"][0]["damage"])
+
+n = 100
+if n < 50:
+    print("n is less than 50")
+elif n == 50:
+    print("n is equal 50")
+else:
+    print("n is greater than 50")
+
+
+if any(car["make"] == "Tesla" for car in car_station):
+    print("Tesla found")
+else:
+    print("no Tesla in the list")
