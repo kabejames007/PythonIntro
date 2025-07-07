@@ -1,3 +1,7 @@
+
+from funcs.my_module import cube_number, greet
+
+
 my_first_number = 42
 print(my_first_number)
 
@@ -72,3 +76,7 @@ if any(car["make"] == "Tesla" for car in car_station):
     print("Tesla found")
 else:
     print("no Tesla in the list")
+
+
+print(cube_number(3))
+print(greet("John"))
