@@ -6,7 +6,7 @@ class Car:
         self.year = year
         self.mileage = mileage
         self.condition = condition
-        self
+        self.color = color
         self.odometer_reading = 0
 
     def get_descriptive_name(self):
