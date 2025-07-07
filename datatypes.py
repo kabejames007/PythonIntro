@@ -1,5 +1,7 @@
 
 from funcs.my_module import cube_number, greet
+from funcs.my_classes import Car
+
 
 
 my_first_number = 42
@@ -80,3 +82,6 @@ else:
 
 print(cube_number(3))
 print(greet("John"))
+
+
+my_car = Car
