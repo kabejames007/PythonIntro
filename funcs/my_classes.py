@@ -1,6 +1,6 @@
 
 class Car:
-    def __init__(self, make: str, model: str, year: int, mileage: int, condition: str, color: str)-> None:
+    def __init__(self, make: str, model: str, year: int, mileage: int, condition: list, color: str)-> None:
         self.make = make
         self.model = model
         self.year = year

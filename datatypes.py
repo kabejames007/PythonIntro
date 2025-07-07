@@ -84,4 +84,5 @@ print(cube_number(3))
 print(greet("John"))
 
 
-my_car = Car
+my_car = Car("Tesla", "Model S", 2022, 79999.99, ["Autopilot", "Electric", "All-Wheel Drive"], True, None)
+print(my_car.condition)
