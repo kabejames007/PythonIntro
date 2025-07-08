@@ -89,7 +89,7 @@ my_car = Car("Tesla", "Model S", 2022, 79999.99, ["Autopilot", "Electric", "All-
 print(my_car.condition)
 
 person_one = Person("John", "Walker", 25, 5.7, "Black", "Employed")
-person_two = Person("Kalisa", "Fabrice", 42, 6.0, "White", "Unmployed")
+person_two = Person("Kalisa", "Fabrice", 42, 6.0, "White", "Unemployed")
 
 person_one.describe_yourself()
 
