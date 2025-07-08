@@ -17,6 +17,6 @@ class Person:
          Updates happiness based on emplyment status.
         """
         if self.employment_statuses == "Unemployed":
-            is_happy = self.is_happy = False
-        return is_happy
+             self.is_happy = False
+        return self.is_happy
 
