@@ -93,5 +93,5 @@ person_two = Person("Kalisa", "Fabrice", 42, 6.0, "White", "Unmployed")
 
 person_one.describe_yourself()
 
-print(f"{person_one.name} is happy: {person_one.is_happy}") 
-print(f"{person_two.name} is happy: {person_two.is_happy}") 
+print(f"{person_one.firstname} is happy: {person_one.is_happy}") 
+print(f"{person_two.firstname} is happy: {person_two.is_happy}") 
