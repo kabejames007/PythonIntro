@@ -28,5 +28,5 @@ def get_people_info(id: int) -> int:
         print("Error: Unable to fetch planet information.")
         return None
 
-people = get_people_info(1)
-print(people)
+people = get_people_info(5)
+print(people['name'])
